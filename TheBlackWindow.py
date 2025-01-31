@@ -1,5 +1,5 @@
 import tkinter as tk
-import customtkinter as ctk
+import customtkinter as ctk 
 
 # Configuração da Janela --------------------------------------------------
 class CustomApp(ctk.CTk):
