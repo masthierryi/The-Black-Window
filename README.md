@@ -6,6 +6,8 @@ Please note: The actual main file is a python file, so you will need it and the 
 
 Future implementations:
 
-Add a hidden button to change the color;
-Turn it into an .exe file (Idk how to do it yet).
+-Add a hidden button to change the color;
+-Add maximize and minimize buttons
+-Turn it into an .exe file (Idk how to do it yet).
+
 If you have any suggestions or comment, please leave them on the discussion page.
