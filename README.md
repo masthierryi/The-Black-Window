@@ -1,4 +1,5 @@
-**The Black Window**. 
+**The Black Window**
+
 Just a mobile, resizable, always on top, clean, minimalist black window.
 
 _Motivation:_ Sometimes I don't want to see part of a PDF, or cover useless or flashy parts of the screen, to optimize attention and speed of studies and work.
