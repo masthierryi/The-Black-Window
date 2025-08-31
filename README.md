@@ -6,6 +6,7 @@ _Motivation:_ Sometimes I don't want to see part of a PDF, or cover useless or f
 
 _Future implementations:_
 - Add a hidden button to change the color;
+- Add a hovering interaction in the window-moving area;
 - Add maximize and minimize buttons (I'm lazy);
 - Turn it into an .exe file (I'm lazy).
 
@@ -16,6 +17,13 @@ _Future implementations:_
 Same as The Black Window, but... there's a rectangular hole. It's resizable, movable, and you can even interact with what's behind it through the hole. And there's a full-screen mode. Simple to use and helpful for a focused reading season.
 
 _Motivation:_ When you want to read a PDF, there are a lot of things around, and depending on the font, even the many lines can get in the way. Imagine if all you could see was the line you're reading.
+
+_Future implementations:_
+- Add a hidden button to change the color;
+- Add a hovering interaction in the window-moving area;
+- Improve the hovering for close and fullscreen butttons.
+- Add minimize button?
+- Turn it into an .exe file (I'm lazy).
 
 ------------------------------------------------------
 
