@@ -1,0 +1,9 @@
+# Converte todos arquivos numa pasta em um único pdf
+# require pip install img2pdf
+# cd to the folder
+
+# Este comando ignora arquivos .pdf, .txt, .DS_Store, etc.
+img2pdf *.jpg *.png *.jpeg -o saida.pdf
+
+# Junta todos arquivos em um pdf
+img2pdf * -o saida.pdf

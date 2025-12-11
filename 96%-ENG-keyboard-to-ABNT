@@ -1,0 +1,31 @@
+; KEYBOARD MAIN --------------
+; set the PC kayboard layout to ABNT2, and use these modified keys
+; some keys may look redundant, but its wise to me. when you put abnt2 in a eng keyboard, the ; key will turn on a ç key, but we I didn't want this, i really wanted the ; key, even in abnt2, so i put the ç on alt+c (maybe i'm a strage)
+
+Ins::End ; turn the numeric insert key into End key 
+	return
+PgDn::Del ; turn PgDn into Del
+	return
+
+^RAlt::send, \ ;turn de Ralt into backslash
+	return
+SC027::send, {;} ;on eng kb is a ";" (on abnt its a "ç", so I turn back into ";")
+	return
++SC027::send, : ;on eng kb is ":", same as ";" key (on abnt its a "Ç")
+	return
+SC035::send, / ;on eng kb is "/" (on abnt its a ";")
+	return
++SC035::send, ? ;on eng kb is "?" (on abnt its a ":")
+	return
+RShift & Down::send, ^. ;"ctrl+." for overleaf compiling
+	return
+ 
+RShift & Up::send, ^; ;"ctrl+/" for overleaf commenting
+	return
+SC053::send,. ; "." on numeric keyboard to "." (on abnt its a comma)
+	return
+
+!SC02E::send, ç ;"Alt+c" into ç
+	return
+!+SC02E::send, Ç ;"Shift+Alt+c" into Ç
+	return
